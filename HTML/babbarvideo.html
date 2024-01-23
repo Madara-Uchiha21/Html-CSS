@@ -1,0 +1,903 @@
+<!-- Formatting -->
+<p>Formatting</p>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second One - formatting tags</title>
+
+</head>
+<body>  <!--The <b></b>,<strong></strong>are used for the same purpose to bold the text.
+    <em></em> is used to italic the the text.<u></u> is for underlining, <s></s> - is used fro striking -->
+    <p> <b>Lorem ipsum</b>, <em>dolor sit </em>amet <strong>consectetur </strong>adipisicing elit. <u>Possimus, totam</u>.
+<s>Ducimus soluta pariatur</s>, ratione quidem fugit. Quod consequatur omnis, corporis necessitatibus.
+Eveniet molestias veniam alias ut nulla voluptatem quia fugiat, enim quidem natus explicabo itaque sunt aliquam doloribus inventore nisi rem maxime velit, ipsum in laboriosam laborum nemo. Soluta, quia?</p>
+<p>
+    2<sup>5</sup> <!-- <sup></sup> is known as super script used to place power -->
+    <pre>
+        Akutsuki is assembled now-`
+    1. Pain     <!-- <pre></pre>- this tag is used to get output as it is written in code editor-->
+    2. Konan
+    3. Itachi
+    4. Kisame
+    5. Oroochimaru
+    6. kakuzu
+    7. Hidan
+    8. Obito
+    9. Zetsu
+    </pre>
+
+</p>
+
+<!--Whern we use > after the alphabate in tags it will provide muliple nested looped tags. -->
+<p>
+    <p>
+        <p></p>
+    </p>
+</p>
+
+<!-- if we use + in between 2 tags we will get the bothe tag but in complete form . -->
+<article></article>
+<section></section>
+
+<!--if we provide command of p{} and write some thin in {} then tab the output will as same.this will true for rest of the tags as well. -->
+<p>This in my new para in new way</p>
+<p><a href="rajpriyanshu048@gmail.com">Email address</a></p>
+<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Blanditiis, sed?</p>
+
+<!-- Every element have diffrent ID.,
+CLASS - it is as common noun in html,The change in one can provide change in all obj of same class. -->
+
+<!-- creating some ids the # is used to create id -->
+<p id="para1"></p>  <!-- here para1 is the id of this para-->
+<article id="kunoichi"></article> <!-- The same goes here-->
+
+<!-- creating some class "."-->
+<p class="para"></p>    <!-- here to define the class we use "." ,so here class is para-->
+<article class="cat"></article>   <!-- we can put anything after .and that will become a class -->
+<section class="cat dog"></section>     <!-- multiple class pitched-->
+
+<!--ATTRIBUTES -
+    All HTML elements can have attributes
+    Attributes provide additional information about elements
+    Attributes are always specified in the start tag
+    Attributes usually come in name/value pairs like: name="value"-->
+
+<!--HTML Style Attribute- 1.background-color property  -->
+</body>
+</html>
+
+<br>
+
+<hr>
+<!-- Sementic -->
+
+<!-- HTML explains what of website. It contain various tags as for example- html,head,body whichia a markup entity
+alo these tags are helpful in creating a structure body or maeaning,format to a code-->
+
+<!DOCTYPE html>  <!-- The !DOCTYPE html is hee to declare that the file is html.in html5  -->
+<html lang="en">  <!--This is an opening tag ,Defines the root of an HTML document.-->
+<head>   <!--A tag which contains metadata of code. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First One</title>
+</head>     <!--Style sheet related data ,SEO related-->
+<body>      <!-- Content here in body tag is interactive with user which mean it can be seen by user-->
+
+    <h1 style = "color: Red;">Hello Duniya , Madara and Jiraya are here to rule this.</h1><!--here color of text will change. -->
+    <h2 style="background-color: Blue;">Madara is Ghost of Uchiha and Jiraya is Pervy Sage.</h2>    <!--HTML Style Attribute-background-color property  -->
+    <h1 style="background-color: brown;">They both want Peace.</h1>  <!--Yes we can use multiple h1 or any h tags. -->
+    <!-- From <h1> to <h6> we can use to get the heading in page wereas we can use aftere <h6> as well ex- <h7> to infinity
+    but it will behave as para , which mean that after h6 tag other h tags will baehave as paragraph and will not shoew any error.
+also these h tags shows the priority waterfall of heading.-->
+
+<!--Fonts - <h1 style="font-family:verdana;">This is a heading</h1>
+Font Size- <h1 style="font-size:300%;">This is a heading</h1>
+Text Alignment- <h1 style="text-align:center;">Centered Heading</h1> -->
+
+    <h7> Madara have Sharingan and Jiraya have Sage Mode<h7>
+        <a href="https://www.google.com"><br>Click Here</a> <!-- This is an AnchorTag which mean if anyone has to go from one page to another,
+            then the anchor tag will provide the way.It is indeed as anchor to moving from one page to another page of external link.here href is attribute-->
+<a href="rajpriyanshu048@gmail.com">Email us</a>
+<li><a href="+918809228888"> Contact Number</a></li>
+<hr>    <!--The hr tag is used to ccreate horizontal line -->
+<br>
+
+<!-- There are 3 types of list - (a) Ordered list, (b) Unordered list (c) Discription list -->
+<ul>    <!-- This tag is used for an unordered list -->
+    <li>Maggi</li>
+    <li>Kurkure</li>
+    <li>Pizza</li>
+</ul>
+
+<ol>    <!-- This tag is ussed for an ordered list -->
+    <li>Pani</li>
+    <li>Doodh</li>
+    <li>cheeni + chai patti</li>
+</ol>
+
+<!-- The basic diffrence between ordered an unordered list is -
+    1. Ordered List (<ol>): An ordered list is used for items that should be placed in a specific order.
+    The list items in an ordered list are marked with numbers by default.
+
+    2. Unordered List (<ul>): An unordered list is used for items that do not need to be in a specific order.
+    The list items in an unordered list are marked with bullets (small black circles) by default. -->
+
+<dl>    <!-- This tag is used for discription list . Here 3 type of tag is used
+1. <dl> it represent whole discription list, 2. <dt> The name which is goint to described,
+    3. <dd> It is a tag ehere duiscription resides.-->
+     <dt>Chai</dt>
+    <dd>Milk + Water + Sugar + Tea Leaf</dd>
+</dl>
+
+<!-- Making of table in html -->
+<table> <!-- This ia table tag initialize the making of table.A table cell can contain all sorts of HTML elements:
+    text, images, lists, links, other tables, etc. -->
+    <tr> <!-- the tr stand for table row , It is placed inside Table tag -->
+        <th>Company</th>
+        <th>Owner</th>
+        <th>Net Worth</th>
+    </tr>
+
+    <tr>
+        <td>TATA</td>
+        <td>Ratan Tata&nbsp;</td>   <!--&nbsp; is used to create space without breaking a line-->
+        <td> $80bn&nbsp;</td>
+    </tr>
+    <tr>
+        <td>Reliance</td>
+        <td>Mukesh Ambani&nbsp;</td>
+        <td>$100bn&nbsp;</td>
+    </tr>
+    <tr>
+        <td>Adani Wilmar</td>
+        <td>Gautam Adani&nbsp;</td>
+        <td>$100bn</td>
+    </tr>
+</table>
+<br>
+<hr>
+
+<!-- image -here the src is the attribute ,which specify the path .
+the width and height attributes- specify the width and height of the image (in pixels):
+alt Attribute- The required alt attribute for the <img> tag specifies an alternate text for an image. -->
+
+<img src="https://w0.peakpx.com/wallpaper/624/13/HD-wallpaper-jiraiya-epic-gama-naruto-pose-presentation-sanin-sapo-shippuden-toad.jpg"alt="Jiraya Toad Sage">
+<img src="https://static.wikia.nocookie.net/naruto/images/3/39/Madara_apperance.PNG/revision/latest/scale-to-width-down/1000?cb=20140703221854"alt = "Madara Uchiha">
+<img src="https://qph.cf2.quoracdn.net/main-qimg-790f061f39c0e4326c16ab46322c92de-lq"width="600"height="600">
+<hr>
+
+</body>
+</html>   <!-- </html> is a closing tag. -->
+<!-- both the <html> and <!html> creates the root tag,it is said as because the code of html
+is going to be written under these both.-->
+
+<!-- this was basics of html and also about sementic tags.-->
+<hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some shortcuts</title>
+</head>
+<body>
+<!-- any tag with curley braces It can be used with any other tag as well. -->
+<p>Any tag with curely braces</p>
+
+<!-- Here wee have used p>p>p> It can be used with any other tag as well. -->
+<div class="wrapper">   <!-- Here, the complete code between start and end of div tag is known as wrapper. -->
+<p>
+    <p>
+        <p>A</p>
+    </p>
+</p>
+
+<!-- Here wee have used p>li*5 It can be used with any other tag as well. -->
+<p>p>li*5 It can be used with any other tag as well.</p>
+<p>
+    <li>B</li>
+    <li>C</li>
+    <li>D</li>
+    <li>E</li>
+    <li>F</li>
+</p>
+
+<!-- Here wee have used p>(ul>li*5)*5 It can be used with any other tag as well. -->
+<p>p>(ul>li*5)*5 It can be used with any other tag as well.</p>
+<p>
+    <ul>
+        <li>G</li>
+        <li>H</li>
+        <li>I</li>
+        <li>J</li>
+        <li>K</li>
+    </ul>
+    <ul>
+        <li>L</li>
+        <li>M</li>
+        <li>N</li>
+        <li>O</li>
+        <li>P</li>
+    </ul>
+    <ul>
+        <li>Q</li>
+        <li>R</li>
+        <li>R</li>
+        <li>S</li>
+        <li>T</li>
+    </ul>
+    <ul>
+        <li>U</li>
+        <li>V</li>
+        <li>W</li>
+        <li>X</li>
+        <li>Y</li>
+    </ul>
+    <ul>
+        <li>Y</li>
+        <li>Z</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</p>
+</div>
+
+<hr>
+
+<!-- Div Tag -->
+<p>Div tag is non-semantic tag. It doesn't have any meaning in itself.
+It is used to create division.Which is helpful in changing? in a division in one time.</p>
+
+<!-- Html element are basically divided into. block and inline. -->
+
+<div class="container">     <!-- Buy allotting div tag as class. as container the whole.
+    code between the start and end of div tag. will known as container. -->
+
+<p><b>Block</b> elements are those element which starts in new line
+and take up the full width available in the line.<!-- Ex-<div>,<h1></h1>
+<p></p>,<ul></ul>,<form></form> --></p>
+
+<br>
+
+<p>Where as <b>Inline</b> element do not start on a new line
+and only take up as much width necessary.<!--Ex- <span></span>,<img src="">,<button></button>. --> </p>
+
+</div>
+
+<hr>
+
+<!--here we are checking weather any element is block or inline element. We have to use background colour attribute.
+If the background colour takes whole line, that means it is a block element. Else it will be inline element.-->
+
+<div style = background-color:red;>Tis is my first div.</div>
+<div style = background-color:red;>Tis is my first div.</div>
+
+<span style = background-color:yellow;> This is my first span.</span>
+<span style = background-color:yellow;> This is my first span.</span>
+
+<!-- By printing both div and span tag for two time. I get the result as the div tag line.
+Start from whereas the span tagline. starts from the same line where it has been ended.
+This also shows that division tag is a block element and span is an inline element. -->
+
+<!-- We can convert block level element to an inline element using css. The display property in css allows to control the display behaviour of an element.
+Here we have changed -->
+<div style = background-color:red;display:inline>Tis is my first div.</div>
+<span style = background-color:yellow;display:block> This is my first span.</span>
+
+<nav>
+    <p><a href="">Home</a> <a href="">Contact us</a> <a href="">Email</a></p>
+<!-- if we write like this we can get output horizontally. -->
+</nav>
+
+<hr>
+<!--Tables: Keywords
+. table- It is used for initiation of table.
+. border- it is a attribute to difine the visiblity of border.
+. thead- initiation of ]heading or header part of table.
+. tr- short for of table row
+. td- table data
+. tfoot- table foot
+. rowspan - to increase the row
+. colspan - to increase the column -->
+
+<p>Table in HTML:</p>
+<p>Table:1</p>
+
+<table border="3">
+    <thead>
+        <th>Name</th>
+        <th>Roll Number</th>
+        <th>Marks</th>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Gollu</td>
+            <td>17</td>
+            <td>50</td>
+        </tr>
+
+        <tr>
+            <td>Indu</td>
+            <td>19</td>
+            <td rowspan="2">15</td>
+        </tr>
+
+        <tr>
+            <td>Manoj</td>
+            <td>15</td>
+
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="2">Total</td>
+            <td >65</td>
+        </tr>
+    </tfoot>
+</table>
+
+<br>
+<hr>
+
+<p>Another table:2</p>
+
+<table border = "1">
+    <thead>
+        <th>column1</th>
+        <th>column2</th>
+        <th>column3</th>
+    </thead>
+
+    <tbody>
+       <tr>
+           <td rowspan="2">Row1 Cell1</td>
+           <td>Row1 Cell2</td>
+           <td>Row1 Cell3</td>
+       </tr>
+
+       <tr>
+           <td>Row2 Cell2</td>
+           <td>Row2 Cell3</td>
+       </tr>
+
+       <tr>
+           <td colspan="3">Row3 Cell1</td>
+       </tr>
+    </tbody>
+</table>
+
+<br>
+<hr>
+
+<p>Table:3</p>
+
+<table border="3">
+
+    <thead>
+        <th>No.</th>
+        <th>Full Name</th>
+        <th>Position</th>
+        <th>Salary</th>
+        <th>Type</th>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Founder Microsoft</td>
+            <td>1000</td>
+            <td rowspan="4">Company Founder</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1200</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>$1100</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Mark Zugerberg</td>
+            <td>Founder Facebook</td>
+            <td>$1300</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3">Total Expense</td>
+            <td>4600</td>
+        </tr>
+    </tfoot>
+</table>
+
+<br>
+<hr>
+
+<p>Table:3</p>
+
+<table border="3">
+    <thead>
+        <th>Country</th>
+        <th>State</th>
+        <th>City</th>
+        <th>Street</th>
+        <th>Male</th>
+        <th>Female</th>
+        <th>Others</th>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td rowspan="8">1</td>
+            <td rowspan="4">Kerala</td>
+                <td rowspan="2">Cochin</td>
+                    <td>New street</td>
+                    <td>500</td>
+                    <td>600</td>
+                    <td>6</td>
+        </tr>
+
+        <tr>
+               <td>Main Street</td>
+               <td>300</td>
+               <td>288</td>
+               <td>2</td>
+        </tr>
+            <td rowspan="2">Trivandrum</td>
+            <td>Guru Street</td>
+            <td> 500</td>
+            <td>600</td>
+            <td>10</td>
+        <tr>
+            <td>TVK Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Maharastra</td>
+            <td rowspan="2">Mumbai</td>
+            <td>Krisha Street</td>
+            <td>700</td>
+            <td>850</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>Main Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Surath</td>
+            <td>New Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>Billa Street</td>
+            <td>500</td>
+            <td>600</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+          <td rowspan="2">2</td>
+            <td rowspan="2">Alaska</td>
+            <td rowspan="2">AKA Central</td>
+            <td>New Street</td>
+            <td>200</td>
+            <td>210</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>Cross Street</td>
+            <td>1000</td>
+            <td>1050</td>
+            <td>10</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+<hr>
+
+<p>Table:4 it will remain my home work</p>
+
+<table border="4">
+
+    <thead>
+        <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+        </tr>
+
+        <tr>
+            <th>Schedule</th>
+            <th colspan="2">Topic</th>
+        </tr>
+
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td> Introduction to XML</td>
+        </tr>
+
+        <tr>
+            <td>Validity:DTD and Relax NG</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td>X
+                Path</td>
+        </tr>
+
+        <tr>
+            <td>11: a.m.</td>
+            <td>2:00 p.m.</td>
+        </tr>
+
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>XSL
+            Transformation</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 p.m.</td>
+            <td>XLS Formatting Objects</td>
+        </tr>
+    </tbody>
+</table>
+
+<!--Space for work-->
+<br>
+<hr>
+
+<!-- HTML FORMS- their are various tags in it. 
+1. <form></form>- It used to create HTML forms.
+2. <input type="" name="">- we get diff type of input.
+3. <label></label>- Helpful in creating level. It is the text which is attached to the. specific place
+which define what to input and where.
+Screen reader -  it is under label tag identify an element by its role as the user navigates through the content.
+id attribute of input and for attribute of label tag should be same.
+Place holder attribute - These are fadded text in the  boxex as we see.-->
+<p>HTML FORMS</p>
+<hr>
+
+<!-- Form Elements
+1. input - It can create textfeils,button,radio,checkbox,file select,password feild
+image button,
+2. label
+3. select - it can create dropdown menu
+4. option - it will come under select element.
+   button
+5. text area- to get a multiline input.
+6. feild set- it is used to club large number of line.
+7. legend - Heading -->
+
+<fieldset>
+    <legend>Khet</legend>
+<form>
+    <label for="datepicker">Choose Date</label>
+    <input type="date" id="datepicker">
+
+    <br>
+    <label for="selector">Choose your dish:</label>
+    <select name="dish" id="selector" multiple>
+        <option value="maggi">Maggi</option>
+        <option value="paneer">Paneer</option>
+        <option value="rajma">Rajma</option>
+    </select>
+
+    <label for="selector1">Choose your day:</label>
+    <select name="day" id="selector1">
+        <option value="maggi">Monday</option>
+        <option value="paneer">Tuesday</option>
+        <option value="rajma">Wednesday</option>
+    </select>
+
+    <button>Isko Dabba</button>
+</form>
+
+<br>
+<hr>
+
+<textarea name="yha likho" id = "textarea" cols="30" rows="10" placeholder ="likh le bhai...."> </textarea>
+</fieldset>
+
+<br>
+
+<p>Creating varios things by input :</p>
+
+<p>1. Radio-</p>
+<label for="Haku">Button dekh andhe</label>
+<input type="radio" name="jabuza" id="Haku" >
+
+<p>2. Textfeild-</p>
+<label type = "text" for="Likh" name="Dibba">Idhar Likh</label>
+<input type="Textfeild" name="Dibba" id="Likh" placeholder="Likh le yrr">
+
+<p>3.Button-</p>
+<label for="Dhakaan" name="Pathar">Pathar-</label>
+<input type="submit" row= "2" name="Pathar" value= "hit" id="Dhakaan" >
+
+<p>4. Radio Button-</p>
+<label for="Radio1" name="kankad">kankad1-</label>
+<input type="radio" name="kankad" value= "hit" id="Radio1">
+
+<br>
+
+<label for="Radio2" name="kankad">kankad2-</label>
+<input type="radio" name="kankad" value= "hit" id="Radio2">
+
+<br>
+
+<label for="Radio3" name="kankad">kankad3-</label>
+<input type="radio"name="kankad" value= "hit" id="Radio3">
+
+<br>
+
+<p> 5. CheckBox-</p>
+<label for="kulhadi" name="lakdi">English</label>
+<input type="checkbox"name="lakdi" value= "Axe" id="kulhadi">
+
+<br>
+
+<label for="kulhadi1" name="lakdi">Hindi</label>
+<input type="checkbox" name="lakdi" value= "Axe" id="kulhadi1">
+
+<br>
+
+<p> 6. File Select</p>
+<label for="kulhadi2" name="lakdi">Find</label>
+<input type="file" name="lakdi" value= "Axe" id="kulhadi2">
+
+<br>
+
+<p>Blockquotes</p>
+<blockquote cite = "https://www.w3schools.com/html/html_quotation_elements.asp">For 60 years, WWF has worked to help people and nature thrive.
+As the world's leading conservation organization, WWF works in nearly 100 countries.
+At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities,
+wildlife, and the places in which they live.</blockquote>
+
+<br>
+<p>For short quotes we use q.</p>
+<p>Madara is <q>Ghost of Uchiha</q></p>
+
+<br>
+<p>Abbreviation : abbr tag</p>
+<p><abbr title="World Health Organisation">WHO</abbr></p>
+
+<br>
+<p>Address tag</p>
+<address>
+    Near CPS School<br>
+    Pindari Road,Kathyatbara<br>
+    Bageshwar,Uttarakhand
+</address>
+
+<br>
+<p>Tiltle for creative work : cite tag</p>
+<img src="https://facts.net/wp-content/uploads/2023/05/Naruto-730x535.jpeg" width ="130" length = "140" alt="Naruto Uzumaki">
+<p>This is <cite>Naruto Uzm</cite></p>
+
+<br>
+<p>To change the direction of sentence. bdo tag is used</p>
+<bdo dir="rtl">Here we will change the direction.</bdo>
+
+<br>
+<hr>
+<p>Table HW</p>
+
+<table border="4">
+
+    <thead>
+        <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+        </tr>
+
+        <tr>
+            <th>Schedule</th>
+            <th colspan="2">Topic</th>
+        </tr>
+
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 a.m.</td>
+            <td rowspan="2">5:00 p.m.</td>
+            <td> Introduction to XML</td>
+        </tr>
+
+        <tr>
+            <td>Validity:DTD and Relax NG</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td>X
+                Path</td>
+        </tr>
+
+        <tr>
+            <td>11: a.m.</td>
+            <td>2:00 p.m.</td>
+        </tr>
+
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td>XSL
+            Transformation</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 p.m.</td>
+            <td>XLS Formatting Objects</td>
+        </tr>
+    </tbody>
+</table>
+
+<br>
+
+<p>HTML CSS</p>
+
+<p>Internal Styling</p>
+<!--This is how to have background color,text color -->
+<style>
+body {background-color:powderblue;}
+pre {color:blue;}
+h1 {color:red;}
+</style>
+
+<body>
+ <pre>
+ <h1>Akutsuki is assembled now-</h1>
+    1. Pain     <!-- <pre></pre>- this tag is used to get output as it is written in code editor-->
+    2. Konan
+    3. Itachi
+    4. Kisame
+    5. Oroochimaru
+    6. kakuzu
+    7. Hidan
+    8. Obito
+    9. Zetsu
+ </pre>
+</body>
+
+<br>
+<p>adding border</p> <!-- 1.border: 2px solid black -- used to define border widthand color
+                        2. padding: 30px -- used space between text and border
+                        3. margin:50px -- used for space outside the box. -->
+<style>
+    p1{border: 2px solid black;
+         padding:30px;
+         }
+
+</style>
+<p1>This is surrounded.</p1>
+
+<br>
+<hr>
+
+<!--HTML Links 1. image as a button, 2.emailto,
+3. button as alink, 4. target(_space,_blank,_parents,_top) -->
+<p>HTML Links</p>
+
+<!--1. image as a button link -->
+<a href="https://aniwatch.to/watch/naruto-shippuden-355?ep=8127">
+<img src="file:///C:/Users/rajpr/OneDrive/Desktop/CODING/main-qimg-9c7fd6b4102c8a927a7d60d7f088b791.webp"
+alt = "obito img"> Visit us</a>
+
+<br>
+<a href="default.asp">
+<img src="https://64.media.tumblr.com/62ef09ce102272acc43081642278ae42/tumblr_n2jf45RpJN1rrb3qeo1_1280.pnj" style="width:42px;height:42px;">
+</a>
+
+<br>
+<!-- 2. emailto -->
+<a href="emailto:rajpriyanshu048@gmail.com">Send us at</a>
+
+<br>
+<!-- 3. button as a link -->
+<button onclick="C:\Users\rajpr\OneDrive\Desktop\CODING\CSS\1700565110115-Complete CSS Course Notes.pdf = 'default.asp'">linkedin</button>
+
+<br>
+<!--4. target(_space,_blank,_parents,_top) -->
+<a href="https://www.w3schools.com/html/html_links.asp" target="_space">open</a>
+
+<br>
+<h2>Background Image</h2>
+
+<p>A background image for a p element:</p>
+
+<p style= "background-image:url(file:///C:/Users/rajpr/OneDrive/Desktop/CODING/main-qimg-9c7fd6b4102c8a927a7d60d7f088b791.webp);"
+width="1500" length="850">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a p element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.</p>
+
+<br>
+<!--Animated images: --><!--Floating image -->
+<p><img src="https://www.icegif.com/wp-content/uploads/2021/11/icegif-1369.gif" alt="Shikamaru Nara"style="float:right;">
+<br>Shikamaru Nara :Lazy Style</p>
+
+<br>
+<!--Image as link -->
+<p>Image as a Link <br></p>
+<a href="https://www.linkedin.com/feed/" title="This is my Linkedin">
+   <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b36ba2e-65ae-4193-bbcb-73dd85a5c357/d5mfvam-43af3538-608e-4112-ae67-9efbb1a7fa17.png/v1/fit/w_828,h_1504/kushina_chibi_by_kotrosia_d5mfvam-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg1OSIsInBhdGgiOiJcL2ZcLzViMzZiYTJlLTY1YWUtNDE5My1iYmNiLTczZGQ4NWE1YzM1N1wvZDVtZnZhbS00M2FmMzUzOC02MDhlLTQxMTItYWU2Ny05ZWZiYjFhN2ZhMTcucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.bA8AlKD88f4XhR_5FsBreAEDN6FNU4fn69bEjYBIBuY"
+   alt= "Kushina" width = "111" length ="100">
+</a>
+
+<br>
+<p><a href="#c4">JUmp to chapter4</a></p>
+<p id="c4">weee </p>
+
+<br>
+<!--Favicon tag - it is a image that is used in the title of the page or site. -->
+
+
+
+
+
+</body>
+</html>
